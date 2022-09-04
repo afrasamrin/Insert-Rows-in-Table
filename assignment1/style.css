@@ -1,0 +1,88 @@
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: linear-gradient(#9e5383, #9198e5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        min-height: 100vh;
+    }
+    input {
+      background-color: #21222268;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0 4px 10px rgba(186, 184, 184, 0.2);
+      font-family: inherit;
+      font-size: 1rem;
+      padding: 0.5rem;
+      min-width: 200px;
+      color: white;
+      margin: 1rem;
+     
+  }
+  .buttons{
+    display: block;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  input:focus {
+      outline: none;
+  }
+  button {
+    background-color: #21222268;
+    border: none;
+    margin-right: .5rem;
+    color: rgba(210, 208, 204, 0.917);
+    border-radius: 5px;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(186, 184, 184, 0.2);
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    min-width: 100px;
+    font-size: 1rem;
+    flex-direction: column;
+    cursor: pointer;
+    width:20%
+    
+  }
+
+table{
+  border-collapse: collapse;
+  border-radius: 5px;
+  width:70%;
+  margin-bottom: 3rem;
+}
+table, th, td {
+    text-align: center;
+    border: 1px solid rgba(241, 237, 237, 0.672);
+    border: none;
+    padding: 1rem;
+    color: white;
+    
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(210, 208, 204, 0.917);
+    opacity: 1; /* Firefox */
+  }
+  th{
+    background-color: rgba(11, 11, 11, 0.607);
+    border-bottom: 1px solid rgba(246, 243, 243, 0.171);
+  }
+   td {
+    background-color: #21222268;
+    border-bottom: 1px solid rgba(246, 243, 243, 0.171);
+  }
+  
+  tr:hover {
+    background-color: rgba(215, 210, 209, 0.149);
+  }
